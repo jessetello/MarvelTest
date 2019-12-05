@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D6F9E452399593C00EB4950 /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F9E442399593C00EB4950 /* CharacterCell.xib */; };
+		3D6F9E4823995C8000EB4950 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F9E4723995C8000EB4950 /* CharacterCell.swift */; };
 		3D9818792397117200BC053B /* CharacterCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9818782397117200BC053B /* CharacterCellViewModel.swift */; };
 		3D98187A239828AC00BC053B /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5AE6B23935BE5006CACF4 /* ServiceProvider.swift */; };
 		3D98187B239828B100BC053B /* ComicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5AE5F2392EE8A006CACF4 /* ComicService.swift */; };
@@ -64,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		3D6F9E442399593C00EB4950 /* CharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
+		3D6F9E4723995C8000EB4950 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		3D9818782397117200BC053B /* CharacterCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCellViewModel.swift; sourceTree = "<group>"; };
 		3D9818862398396A00BC053B /* MarvelServiceTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelServiceTestTests.swift; sourceTree = "<group>"; };
 		3DB5AE242392E1AF006CACF4 /* MarvelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				3D6F9E442399593C00EB4950 /* CharacterCell.xib */,
+				3D6F9E4723995C8000EB4950 /* CharacterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				3DB5AE602392EE8A006CACF4 /* ComicService.swift in Sources */,
 				3DC6220C2396F16B0022F041 /* CharacterDataContainer.swift in Sources */,
 				3DB5AE7123941CC6006CACF4 /* ComicViewModel.swift in Sources */,
+				3D6F9E4823995C8000EB4950 /* CharacterCell.swift in Sources */,
 				3DB5AE6F2393632F006CACF4 /* String+Encryption.swift in Sources */,
 				3DC6220A2396F1590022F041 /* CharacterDataWrapper.swift in Sources */,
 				3DB5AE7423942EAA006CACF4 /* Characters.swift in Sources */,

@@ -87,16 +87,3 @@ extension ViewController: ComicViewModelDelegate {
         comicDescriptionLabel.text = description
     }
 }
-
-class CharacterCell: UICollectionViewCell {
-    
-    @IBOutlet weak var characterImageView: UIImageView!
-    @IBOutlet weak var characterNameLabel: UILabel!
-    var viewModel: CharacterCellViewModel? {
-        didSet {
-            characterImageView.loadImage(fromURL: viewModel?.imageURL)
-            characterNameLabel.text = viewModel?.name
-        }
-    }
-}
-
