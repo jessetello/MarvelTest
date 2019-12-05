@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         controllerSetup()
-        viewModel.requestComic(id: comicId)
+        viewModel.loadComic(id: comicId)
     }
     
     private func controllerSetup() {

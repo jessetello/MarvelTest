@@ -17,7 +17,8 @@ enum Result<T> {
 class ServiceProvider<T: Service> {
     
     let urlSession = URLSession.shared
-
+    let dispatchGroup = DispatchGroup()
+    
     init() { }
     
     func load(service: T, completion: @escaping (Result<Data>) -> Void) {
@@ -52,7 +53,9 @@ extension ServiceProvider {
     private func call(_ request: URLRequest,
                       deliverQueue: DispatchQueue = DispatchQueue.main,
                       completion: @escaping (Result<Data>) -> Void) {
-        urlSession.dataTask(with: request) { (data, response, error) in
+        dispatchGroup.enter()
+        urlSession.dataTask(with: request) { [weak self] (data, response, error) in
+            self?.dispatchGroup.leave()
             if let error = error {
                 deliverQueue.async {
                     completion(.failure(error))
