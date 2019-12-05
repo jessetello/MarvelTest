@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6F9E452399593C00EB4950 /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F9E442399593C00EB4950 /* CharacterCell.xib */; };
 		3D9818792397117200BC053B /* CharacterCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9818782397117200BC053B /* CharacterCellViewModel.swift */; };
 		3D98187A239828AC00BC053B /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5AE6B23935BE5006CACF4 /* ServiceProvider.swift */; };
 		3D98187B239828B100BC053B /* ComicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5AE5F2392EE8A006CACF4 /* ComicService.swift */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D6F9E442399593C00EB4950 /* CharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
 		3D9818782397117200BC053B /* CharacterCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCellViewModel.swift; sourceTree = "<group>"; };
 		3D9818862398396A00BC053B /* MarvelServiceTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelServiceTestTests.swift; sourceTree = "<group>"; };
 		3DB5AE242392E1AF006CACF4 /* MarvelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D6F9E462399594900EB4950 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F9E442399593C00EB4950 /* CharacterCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3DB5AE1B2392E1AF006CACF4 = {
 			isa = PBXGroup;
 			children = (
@@ -143,12 +153,13 @@
 			children = (
 				3DB5AE272392E1AF006CACF4 /* AppDelegate.swift */,
 				3DB5AE292392E1AF006CACF4 /* SceneDelegate.swift */,
-				3DB5AE7223942A65006CACF4 /* ViewModels */,
 				3DB5AE6D239362EB006CACF4 /* Extensions */,
 				3DB5AE5A2392E478006CACF4 /* Protocols */,
 				3DB5AE572392E423006CACF4 /* ViewControllers */,
 				3DB5AE592392E44B006CACF4 /* API Services */,
+				3D6F9E462399594900EB4950 /* Views */,
 				3DB5AE5B2392E49E006CACF4 /* Models */,
+				3DB5AE7223942A65006CACF4 /* ViewModels */,
 				3DB5AE5C2392E4BB006CACF4 /* Storyboards */,
 				3DB5AE302392E1B1006CACF4 /* Assets.xcassets */,
 				3DB5AE322392E1B1006CACF4 /* LaunchScreen.storyboard */,
@@ -364,6 +375,7 @@
 				3DB5AE342392E1B1006CACF4 /* LaunchScreen.storyboard in Resources */,
 				3DB5AE312392E1B1006CACF4 /* Assets.xcassets in Resources */,
 				3DB5AE2F2392E1AF006CACF4 /* Main.storyboard in Resources */,
+				3D6F9E452399593C00EB4950 /* CharacterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

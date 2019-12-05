@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     
     private func controllerSetup() {
         flowLayoutSetup()
+        collectionView.register(UINib(nibName: "CharacterCell", bundle: nil), forCellWithReuseIdentifier: "CharacterCell")
         viewModel.comicViewModelDelegate = self
         activityIndicator.hidesWhenStopped = true
         activityIndicator.startAnimating()

@@ -12,7 +12,6 @@ protocol ComicViewModelDelegate: class {
     func displayComic(imageURL: URL?,
                       title: String,
                       description: String)
-    
     func displayCharacters(title: String)
     func loadingComplete()
 }

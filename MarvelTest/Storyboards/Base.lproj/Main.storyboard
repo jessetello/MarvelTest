@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,41 +30,7 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CharacterCell" id="iSd-7L-4Mp" customClass="CharacterCell" customModule="MarvelTest" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="113" height="145"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fyG-vb-0dz">
-                                            <rect key="frame" x="0.0" y="0.0" width="113" height="145"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="THl-rH-8SR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="113" height="114"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uF9-q8-ps4">
-                                                    <rect key="frame" x="0.0" y="120.5" width="113" height="16.5"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="uF9-q8-ps4" firstAttribute="bottom" secondItem="fyG-vb-0dz" secondAttribute="bottomMargin" id="LYz-qG-sa6"/>
-                                                <constraint firstItem="uF9-q8-ps4" firstAttribute="trailing" secondItem="THl-rH-8SR" secondAttribute="trailing" id="Nfp-gY-Es1"/>
-                                                <constraint firstItem="THl-rH-8SR" firstAttribute="leading" secondItem="fyG-vb-0dz" secondAttribute="leading" id="Ovp-wJ-p3t"/>
-                                                <constraint firstItem="THl-rH-8SR" firstAttribute="top" secondItem="fyG-vb-0dz" secondAttribute="top" id="YAb-Tc-ykP"/>
-                                                <constraint firstItem="uF9-q8-ps4" firstAttribute="top" secondItem="THl-rH-8SR" secondAttribute="bottom" constant="6.5" id="aUh-UR-IdB"/>
-                                                <constraint firstAttribute="trailing" secondItem="THl-rH-8SR" secondAttribute="trailing" id="auV-iw-aU6"/>
-                                                <constraint firstItem="uF9-q8-ps4" firstAttribute="leading" secondItem="THl-rH-8SR" secondAttribute="leading" id="uuU-Ca-Akf"/>
-                                            </constraints>
-                                        </collectionViewCellContentView>
-                                        <size key="customSize" width="113" height="145"/>
-                                        <connections>
-                                            <outlet property="characterImageView" destination="THl-rH-8SR" id="Y9w-tU-XS5"/>
-                                            <outlet property="characterNameLabel" destination="uF9-q8-ps4" id="n7F-LR-7Na"/>
-                                        </connections>
-                                    </collectionViewCell>
-                                </cells>
+                                <cells/>
                             </collectionView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lwO-vN-t3A">
                                 <rect key="frame" x="20" y="261" width="335" height="50.5"/>
